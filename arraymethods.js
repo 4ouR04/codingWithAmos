@@ -38,4 +38,15 @@ months.splice(2, 1);
 
 //replacing
 months[1] = 'December'
-console.log(months);
+//console.log(months);
+
+var numbers = [49, 81, 36, 25]
+//var roots = numbers.map(Math.sqrt)
+//console.log(roots)
+function disp(array_name){
+for(let i=0; i<array_name.length; i++)
+    {
+        console.log(numbers[i])
+    }
+}
+disp(numbers.sort());
